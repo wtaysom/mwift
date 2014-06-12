@@ -260,7 +260,7 @@ func anyCommonElements<T: Sequence, U: Sequence where
 }
 
 anyCommonElements([1, 2, 3], [3])
-~~~ swift
+~~~
 
 The same in Java (assuming that `Object.equals` comes instead from an `Equatable` interface):
 
