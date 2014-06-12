@@ -46,7 +46,7 @@ A Break with legacy permits improved clarity and simplify.  What remains bafflin
 
 ### What else?
 
-Let's take a quick look at the (syntax)[#syntax], (semantics)[#semantics], especially (Automatic Reference Counting)[automatic-reference-counting], (tooling)[tooling], (object orientation)[#object-orientation], and (functional programming)[#functional-programming].
+Let's take a quick look at the [syntax](#syntax), [semantics](#semantics), especially [Automatic Reference Counting](automatic-reference-counting), [tooling](#tooling), [object orientation](#object-orientation), and [functional programming](#functional-programming).
 
 ## Syntax
 
