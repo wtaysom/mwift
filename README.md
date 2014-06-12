@@ -466,7 +466,7 @@ enum List<T> {
 }
 ~~~
 
-Looks good.  But it doesn't compile.  That's a (bug)[https://twitter.com/jopamer/status/473590251168874496]:
+Looks good.  But it doesn't compile.  That's a [bug](https://twitter.com/jopamer/status/473590251168874496):
 
 > Carlos Scheidegger: Hey, Swift looks really nice - wondering if enums can have recursive defs.
 > Joe Palmer: Thanks, Carlos! Not quite yet, but only because of a bug. I'm currently tracking it, and I'll look into addressing it soon.
@@ -487,7 +487,7 @@ func append<T>(xs: List T, ys: List T) -> List T {
 	case .Nil:
 		return ys
 	case let .Cons(x, xs):
-		return Cons(x, append(xs, ys))
+		return .Cons(x, append(xs, ys))
 	}
 }
 ~~~
